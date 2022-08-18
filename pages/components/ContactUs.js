@@ -15,7 +15,7 @@ export default function ContactUs() {
           </p>
         </div>
 
-        <p className="font-poppins font-medium text-[18px] leading-[23.4px] flex flex-row">
+        <p className="font-poppins font-medium text-[18px] leading-[23.4px] flex flex-row ml-5">
           <span className="text-gradient">Us</span>
           <Image
             src="/assets/arrow-up.svg"
