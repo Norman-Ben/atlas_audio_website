@@ -20,7 +20,7 @@ export default function Home() {
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          Hero <section />
+          <Hero />
         </div>
       </div>
 
@@ -29,7 +29,6 @@ export default function Home() {
           <WhatWeDo />
           <Portfolio />
           <Testimonials />
-          <ContactUs />
           <Footer />
         </div>
       </div>
