@@ -43,6 +43,12 @@ export default function Hero() {
           alt="Test"
           className="w-[80%] relative z-[5] rounded-xl mt-6"
         />
+
+        {/* Gradients */}
+
+        <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
+
+        <div className="absolute z-[0] w-[40%] h-[50%] right-0 bottom-20 blue__gradient" />
       </div>
     </section>
   );
