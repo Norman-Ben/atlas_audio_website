@@ -1,7 +1,7 @@
 import React from 'react';
 import styles, { layout } from '../style';
-import ContactUsButton from './ContactUsButton';
 import Image from 'next/future/image';
+import PricingSlider from './PricingSlider';
 
 export default function WhatWeDo() {
   return (
@@ -63,7 +63,7 @@ export default function WhatWeDo() {
             your needs and budget. Please use the slider below for a quote based
             on total length of composition(s) required.
           </p>
-          <ContactUsButton styles="mt-10" />
+          <PricingSlider />
         </div>
 
         <div className={`${layout.sectionImg}`}>
