@@ -22,11 +22,6 @@ export default function Hero() {
           alt="Test"
           className="xl:w-[70%] lg:w-[55%] w-[80%] z-[5] rounded-[15px] mt-2"
         />
-        {/* Gradients */}
-
-        <div className="absolute z-[0] w-[45%] h-[55%] top-0 left-0 white__gradient" />
-        <div className="absolute z-[0] w-[40%] h-[50%] left-0 bottom-0 blue__gradient" />
-        <div className="absolute z-[0] w-[20%] h-[20%] left-0 bottom-10 purple__gradient" />
       </div>
 
       <div

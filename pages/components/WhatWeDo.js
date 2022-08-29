@@ -40,10 +40,6 @@ export default function WhatWeDo() {
             width={640}
             className="md:w-[70%] w-[65%] rounded-[15px] relative z-[5]"
           />
-
-          {/* gradients */}
-          <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[70%] rounded-full white__gradient" />
-          <div className="absolute z-[0] w-[50%] h-[70%] -left-1/2 bottom-0 rounded-full purple__gradient" />
         </div>
         <div className={layout.sectionInfo}>
           <h2 className={styles.heading2}>State of the art Studio</h2>
