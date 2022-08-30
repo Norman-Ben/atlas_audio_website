@@ -3,6 +3,14 @@ import styles, { layout } from '../style';
 import ContactUsButton from './ContactUsButton';
 
 export default function PricingSlider() {
+  const [sliderValue, setSliderValue] = React.useState(0);
+  const [price, setPrice] = React.useState(0);
+
+  const handleSliderChange = (event) => {
+    setSliderValue(event.target.value);
+    setPrice(event.target.value * 50);
+  };
+
   return (
     <div className="w-full md:w-5/6 my-10">
       <input
@@ -10,13 +18,14 @@ export default function PricingSlider() {
         min={0}
         max={60}
         step={5}
-        value={5}
-        className="w-full"
+        value={sliderValue}
+        className="w-full slider"
+        onChange={handleSliderChange}
       ></input>
-      <p className={`${styles.paragraph}`}>Minutes:</p>
-      <p className={`${styles.paragraph}`}>Price:</p>
+      <p className={`${styles.paragraph}`}>Minutes: {sliderValue}</p>
+      <p className={`${styles.paragraph}`}>Price: £{price}</p>
 
-      <ContactUsButton styles={'my-10'} />
+      <ContactUsButton styles={'mt-5'} />
     </div>
   );
 }
