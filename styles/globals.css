@@ -77,6 +77,18 @@
   );
 }
 
+.bg-blue-gradient:hover {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dd8f0 12.19%,
+    #7dcceb 29.82%,
+    #5cb1e6 51.94%,
+    #338ecf 90.29%
+  );
+}
+
 .slider {
   -webkit-appearance: none;
   width: 100%;
