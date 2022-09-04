@@ -1,15 +1,8 @@
+import React from 'react';
 import styles from './style.js';
-import {
-  Navbar,
-  Portfolio,
-  Testimonials,
-  WhatWeDo,
-  ContactUs,
-  Footer,
-  Hero,
-} from './components/index.js';
+import { Navbar, Footer, AboutContent } from './components/index.js';
 
-export default function Home() {
+export default function About() {
   return (
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -17,16 +10,13 @@ export default function Home() {
           <Navbar />
         </div>
       </div>
-
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero />
-        </div>
-      </div>
-
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <WhatWeDo />
+          <AboutContent />
+        </div>
+      </div>
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>
       </div>
