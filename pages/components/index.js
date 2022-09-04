@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Portfolio from './PortfolioContent';
-import Testimonials from '../components/Testimonials';
+import TestimonialsContent from '../components/TestimonialsContent';
 import ContactUs from '../components/ContactUs';
 import Footer from '../components/Footer';
 import WhatWeDo from '../components/WhatWeDo';
@@ -12,7 +12,7 @@ export {
   Navbar,
   Hero,
   Portfolio,
-  Testimonials,
+  TestimonialsContent,
   ContactUs,
   Footer,
   WhatWeDo,
