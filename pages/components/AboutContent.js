@@ -22,7 +22,7 @@ export default function About() {
           uniquely crafted to suit their purpose. Since childhood, Alex and
           Julian have been composing both in bands and technology. Inspired by
           their love of Games, TV & Film, and a special energy of passion and
-          oneupmanship, Atlas-Audio is the culmination of a combined love of
+          oneupmanship, Atlas Audio is the culmination of a combined love of
           crafting sound worlds to a brief.
         </p>
       </div>
