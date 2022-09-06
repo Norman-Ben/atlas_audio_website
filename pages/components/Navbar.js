@@ -12,6 +12,7 @@ export default function Navbar() {
         alt="Atlas Audio Logo"
         width={100}
         height={100}
+        className="z-[1]"
       />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
