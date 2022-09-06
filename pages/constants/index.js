@@ -26,24 +26,24 @@ export const footerLinks = [
     title: 'Site Links',
     links: [
       {
-        name: 'Home',
-        link: 'https://www.hoobank.com/home/',
+        id: '/',
+        title: 'Home',
       },
       {
-        name: 'About',
-        link: 'https://www.hoobank.com/about/',
+        id: 'about',
+        title: 'About',
       },
       {
-        name: 'Portfolio',
-        link: 'https://www.hoobank.com/portfolio/',
+        id: 'portfolio',
+        title: 'Portfolio',
       },
       {
-        name: 'Testimonials',
-        link: 'https://www.hoobank.com/testimonials/',
+        id: 'testimonials',
+        title: 'Testimonials',
       },
       {
-        name: 'Contact Us',
-        link: 'https://www.hoobank.com/contactus/',
+        id: 'contactUs',
+        title: 'Contact Us',
       },
     ],
   },
@@ -51,20 +51,24 @@ export const footerLinks = [
     title: 'Social Media',
     links: [
       {
-        name: 'Instagram',
-        link: 'https://www.instagram.com/atlasaudiouk/',
+        title: 'Instagram',
+        id: 'https://www.instagram.com/atlasaudiouk/',
+        img: '/assets/instagram.svg',
       },
       {
-        name: 'Facebook',
-        link: 'https://www.facebook.com/AtlasAudioUK',
+        title: 'Facebook',
+        id: 'https://www.facebook.com/AtlasAudioUK',
+        img: '/assets/facebook.svg',
       },
       {
-        name: 'Youtube',
-        link: 'https://www.youtube.com/channel/UCsbBix1KNZYDmftlwQplQuw',
+        title: 'Youtube',
+        id: 'https://www.youtube.com/channel/UCsbBix1KNZYDmftlwQplQuw',
+        img: '/assets/youtube.svg',
       },
       {
-        name: 'Soundcloud',
-        link: 'https://soundcloud.com/atlas-audio-490771776',
+        title: 'Soundcloud',
+        id: 'https://soundcloud.com/atlas-audio-490771776',
+        img: '/assets/soundcloud.svg',
       },
     ],
   },

@@ -127,3 +127,8 @@
   background: #5ccfe6;
   cursor: pointer;
 }
+
+.svg-filter {
+  filter: invert(100%) sepia(54%) saturate(0%) hue-rotate(244deg)
+    brightness(112%) contrast(101%);
+}
