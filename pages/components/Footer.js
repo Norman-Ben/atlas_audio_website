@@ -7,29 +7,29 @@ export default function Footer() {
   return (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full`}>
-        <div className="flex-1 flex flex-col justify-start mr-10">
+        <div className="flex-1 flex flex-col sm:justify-start sm:mr-10">
           <Image
             src="/assets/AtlasAudioLogoWhite.png"
             alt="Atlas Audio Logo"
             width={768}
             height={768}
-            className="w-[180px] object-contain"
+            className="w-[180px] object-contain m-auto md:m-0"
           />
           <p className={`${styles.paragraph} mt-4 max-w-[310px] text-sm`}>
             Copyright © 2022 Atlas-Audio
           </p>
         </div>
 
-        <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10 gap-4">
+        <div className="flex-[1.5] w-full flex flex-row sm:justify-between justify-center flex-wrap md:mt-0 mt-10 gap-4">
           {footerLinks.map((footerlink) => (
             <div
               key={footerlink.title}
               className={`flex-row ss:my-0 my-4 min-w-[150px]`}
             >
-              <h4 className="font-poppins font-medium text-[18px] leading-[10px] text-white mb-2">
+              <h4 className="font-poppins font-medium text-[18px] leading-[10px] text-white mb-2 sm:block hidden">
                 {footerlink.title}
               </h4>
-              <ul className="list-none sm:flex hidden gap-4 items-center flex-1">
+              <ul className="list-none sm:flex gap-4 items-center flex-1 text-center">
                 {footerlink.links.map((link, index) => (
                   <li
                     key={link.id}
@@ -44,7 +44,7 @@ export default function Footer() {
                           src={link.img}
                           width={30}
                           height={30}
-                          className="svg-filter"
+                          className="svg-filter m-auto"
                         />
                       ) : null}
                     </a>
