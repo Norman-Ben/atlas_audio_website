@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className={`flex lg:flex-row flex-col ${styles.paddingY} justify-center`}
+      className={`flex lg:flex-row flex-col ${styles.paddingY} justify-center z-10`}
     >
       <div className={` ${styles.flexStart} flex-col xl:px-0 sm:px16 px-6`}>
         <div
