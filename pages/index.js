@@ -1,13 +1,5 @@
 import styles from './style.js';
-import {
-  Navbar,
-  Portfolio,
-  Testimonials,
-  WhatWeDo,
-  ContactUs,
-  Footer,
-  Hero,
-} from './components/index.js';
+import { Navbar, WhatWeDo, Footer, Hero } from './components/index.js';
 
 export default function Home() {
   return (
@@ -19,7 +11,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={` ${styles.flexStart}`}>
+      <div className={` ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
