@@ -29,7 +29,6 @@ export default function Home() {
         <div className={`${styles.boxWidth}`}>
           <WhatWeDo />
           <Footer />
-          {/* <div className="blue__gradient absolute z-[0] w-[50%] h-[50%] top-0 left-0" /> */}
         </div>
       </div>
     </div>
