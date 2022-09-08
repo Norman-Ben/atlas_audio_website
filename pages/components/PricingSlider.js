@@ -25,7 +25,11 @@ export default function PricingSlider() {
       <p className={`${styles.paragraph}`}>Minutes: {sliderValue}</p>
       <p className={`${styles.paragraph}`}>Price: £{price}</p>
 
-      <ContactUsButton styles={'mt-5'} />
+      <ContactUsButton
+        styles={'mt-5'}
+        text="Contact Us"
+        link="mailto:contact@atlas-audio.co.uk"
+      />
     </div>
   );
 }

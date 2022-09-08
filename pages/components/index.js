@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import WhatWeDo from '../components/WhatWeDo';
 import AboutContent from '../components/AboutContent';
 import PortfolioContent from '../components/PortfolioContent';
+import ContactContent from '../components/ContactContent';
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   WhatWeDo,
   AboutContent,
   PortfolioContent,
+  ContactContent,
 };

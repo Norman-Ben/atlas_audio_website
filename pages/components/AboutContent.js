@@ -8,7 +8,7 @@ export default function AboutContent() {
       <div className={`${layout.sectionImgReverse}`}>
         <Image
           src="/assets/AtlasAudioAboutPic.jpeg"
-          alt="Guitar"
+          alt="Picture of Atlas Audio"
           height={1024}
           width={683}
           className="md:w-[90%] w-[65%] rounded-[15px] relative z-[5]"

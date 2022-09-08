@@ -16,7 +16,7 @@ export const navLinks = [
     title: 'Testimonials',
   },
   {
-    id: 'contactUs',
+    id: 'contact',
     title: 'Contact Us',
   },
 ];
@@ -42,7 +42,7 @@ export const footerLinks = [
         title: 'Testimonials',
       },
       {
-        id: 'contactUs',
+        id: 'contact',
         title: 'Contact Us',
       },
     ],
