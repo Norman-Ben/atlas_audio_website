@@ -7,8 +7,6 @@ import { footerLinks } from '../constants';
 export default function ContactContent() {
   let socialMediaLinks = footerLinks[1].links;
 
-  console.log(socialMediaLinks);
-
   return (
     <section className={layout.sectionReverse}>
       <div className={`${layout.sectionImgReverse}`}>
