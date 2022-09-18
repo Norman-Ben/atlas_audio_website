@@ -3,6 +3,12 @@ import styles, { layout } from '../style';
 import Image from 'next/future/image';
 
 export default function AboutContent() {
+  const [isReadMore, setIsReadMore] = React.useState(false);
+
+  function handleReadMore() {
+    setIsReadMore(!isReadMore);
+  }
+
   return (
     <section>
       <section className={`md:${layout.section} ${layout.sectionReverse}`}>
@@ -30,14 +36,18 @@ export default function AboutContent() {
             importantly, they were aware of how close I was to my project and
             only wanted to honour that bond to do it justice while it was in
             their capable hands, and I would trust them again with my work 100%
-            because they certainly delivered.
-            <br />
-            I’ve already notified Atlas Audio of future projects, projects that
-            would not be the same without their talents. I look forward to what
-            comes next, I am excited about my franchises growth, and if you are
-            like me, and are looking for someone to manage your music, if you’re
-            seeking creatives in this field, I highly recommend getting in touch
-            with Atlas Audio.”
+            because they certainly delivered. <br />
+            <span className={isReadMore ? `block` : `hidden`}>
+              I’ve already notified Atlas Audio of future projects, projects
+              that would not be the same without their talents. I look forward
+              to what comes next, I am excited about my franchises growth, and
+              if you are like me, and are looking for someone to manage your
+              music, if you’re seeking creatives in this field, I highly
+              recommend getting in touch with Atlas Audio.”
+            </span>
+            <button onClick={handleReadMore} className="text-white underline">
+              {isReadMore ? 'Read less..' : 'Read more..'}
+            </button>
           </p>
         </div>
       </section>

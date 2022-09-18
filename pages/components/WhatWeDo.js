@@ -21,13 +21,13 @@ export default function WhatWeDo() {
           </p>
         </div>
 
-        <div className={`${layout.sectionImg}`}>
+        <div className={`${layout.sectionImg} mb-7`}>
           <Image
-            alt="Mixing Desk"
+            alt="Recording Studio"
             src="/assets/HeroPicture.jpeg"
             height={1080}
             width={1080}
-            className="md:w-[100%] w-[65%] rounded-[15px]"
+            className="md:w-[100%] w-[70%] rounded-[15px]"
           />
         </div>
       </section>
@@ -38,7 +38,7 @@ export default function WhatWeDo() {
             alt="Guitar"
             height={640}
             width={640}
-            className="md:w-[70%] w-[65%] rounded-[15px] relative z-[5]"
+            className="md:w-[70%] w-[65%] rounded-[15px] relative z-[5] mb-7"
           />
         </div>
         <div className={layout.sectionInfo}>
@@ -68,7 +68,7 @@ export default function WhatWeDo() {
             src="/assets/AtlasMixingDeskPic.jpg"
             height={1080}
             width={1080}
-            className="md:w-[70%] w-[65%] rounded-[15px]"
+            className="md:w-[70%] w-[65%] rounded-[15px] mb-7"
           />
         </div>
       </section>
