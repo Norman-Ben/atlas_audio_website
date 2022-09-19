@@ -11,7 +11,7 @@ export default function Hero() {
         <div
           className={`flex flex-row justify-between items-center w-full z-[5]`}
         >
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[80px] leading-[60px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[40px] text-white ss:leading-[80px] leading-[50px]">
             Bespoke <span className="text-gradient">compositions</span> for
             media <br className="sm:block hidden" /> and professional{' '}
             <span className="text-gradient">audio services</span>.
