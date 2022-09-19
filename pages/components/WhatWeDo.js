@@ -1,6 +1,4 @@
 import React from 'react';
-import styles, { layout } from '../style';
-import Image from 'next/image';
 import PricingSlider from './PricingSlider';
 import HeroPicture from '../../public/assets/HeroPicture.jpeg';
 import GuitarPic from '../../public/assets/AtlasGuitarPic.jpg';
