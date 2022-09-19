@@ -1,6 +1,8 @@
 import React from 'react';
 import styles, { layout } from '../style';
-import Image from 'next/future/image';
+import Image from 'next/image';
+import HhtTestimonial from '../../public/assets/HHT-Testimonial.jpeg';
+import LcbTestimonial from '../../public/assets/LCB-Testimonial.jpeg';
 
 export default function AboutContent() {
   const [isReadMore, setIsReadMore] = React.useState(false);
@@ -55,10 +57,8 @@ export default function AboutContent() {
       <section className={layout.sectionReverse}>
         <div className={`${layout.sectionImgReverse}`}>
           <Image
-            src="/assets/HHT-Testimonial.jpeg"
-            alt="Guitar"
-            height={1024}
-            width={683}
+            src={HhtTestimonial}
+            alt="Home Health Truth Image"
             className="md:w-[90%] w-[65%] rounded-[15px] relative z-[5]"
           />
         </div>
@@ -76,10 +76,8 @@ export default function AboutContent() {
       <section className={layout.sectionReverse}>
         <div className={`${layout.sectionImgReverse}`}>
           <Image
-            src="/assets/LCB-Testimonial.jpeg"
-            alt="Guitar"
-            height={1024}
-            width={683}
+            src={LcbTestimonial}
+            alt="Lights Camera Blokes Image"
             className="md:w-[90%] w-[65%] rounded-[15px] relative z-[5]"
           />
         </div>

@@ -1,8 +1,9 @@
 import React from 'react';
 import styles, { layout } from '../style';
-import Image from 'next/future/image';
+import Image from 'next/image';
 import ContactUsButton from './ContactUsButton';
 import { footerLinks } from '../constants';
+import KeysPic from '../../public/assets/AtlasKeysPic.webp';
 
 export default function ContactContent() {
   let socialMediaLinks = footerLinks[1].links;
@@ -11,10 +12,8 @@ export default function ContactContent() {
     <section className={layout.sectionReverse}>
       <div className={`${layout.sectionImgReverse}`}>
         <Image
-          src="/assets/AtlasKeysPic.webp"
-          alt="Guitar"
-          height={1024}
-          width={683}
+          src={KeysPic}
+          alt="Keybaord player"
           className="md:w-[90%] w-[65%] rounded-[15px] relative z-[5]"
         />
       </div>

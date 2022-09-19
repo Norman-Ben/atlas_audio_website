@@ -1,19 +1,16 @@
 import { useState } from 'react';
-import Image from 'next/future/image';
+import Image from 'next/image';
 import { navLinks } from '../constants';
+import AtlasAudioLogo from '../../public/assets/AtlasAudioLogoWhite.png';
 
 export default function Navbar() {
   const [mobileMenuToggle, setMobileMenuToggle] = useState(false);
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <Image
-        src="/assets/AtlasAudioLogoWhite.png"
-        alt="Atlas Audio Logo"
-        width={100}
-        height={100}
-        className="z-[1]"
-      />
+      <div className="max-w-[100px]">
+        <Image src={AtlasAudioLogo} alt="Atlas Audio Logo" className="z-[1]" />
+      </div>
       <ul className="sm:flex hidden justify-end items-center z-10">
         {navLinks.map((nav, index) => (
           <li

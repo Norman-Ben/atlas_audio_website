@@ -1,21 +1,22 @@
 import React from 'react';
 import styles from '../style';
-import Image from 'next/future/image';
+import Image from 'next/image';
 import { footerLinks } from '../constants';
+import AtlasAudioLogo from '../../public/assets/AtlasAudioLogoWhite.png';
 
 export default function Footer() {
   return (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full`}>
-        <div className="flex-1 flex flex-col sm:justify-start sm:mr-10">
+        <div className="flex-1 flex flex-col sm:justify-start sm:mr-10 md:max-w-[310px] max-w-[210px]">
           <Image
-            src="/assets/AtlasAudioLogoWhite.png"
+            src={AtlasAudioLogo}
             alt="Atlas Audio Logo"
-            width={768}
-            height={768}
             className="w-[180px] object-contain m-auto md:m-0"
           />
-          <p className={`${styles.paragraph} mt-4 max-w-[310px] text-sm`}>
+          <p
+            className={`${styles.paragraph} mt-4 max-w-[310px] text-sm text-center`}
+          >
             Copyright © 2022 Atlas-Audio
           </p>
         </div>

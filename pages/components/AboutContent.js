@@ -1,16 +1,15 @@
 import React from 'react';
 import styles, { layout } from '../style';
-import Image from 'next/future/image';
+import Image from 'next/image';
+import AboutImage from '../../public/assets/AtlasAudioAboutPic.jpeg';
 
 export default function AboutContent() {
   return (
     <section className={layout.sectionReverse}>
       <div className={`${layout.sectionImgReverse}`}>
         <Image
-          src="/assets/AtlasAudioAboutPic.jpeg"
+          src={AboutImage}
           alt="Picture of Atlas Audio"
-          height={1024}
-          width={683}
           className="md:w-[90%] w-[65%] rounded-[15px] relative z-[5]"
         />
       </div>

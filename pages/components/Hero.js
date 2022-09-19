@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from '../style.js';
-import Image from 'next/future/image';
 
 export default function Hero() {
   return (
