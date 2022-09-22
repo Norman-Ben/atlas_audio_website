@@ -1,7 +1,7 @@
 import React from 'react';
 import PricingSlider from './PricingSlider';
-import HeroPicture from '../../public/assets/HeroPicture.jpeg';
-import GuitarPic from '../../public/assets/AtlasGuitarPic.jpg';
+import AAAlex from '../../public/assets/AtlasAudioAlex.jpeg';
+import AAJulian from '../../public/assets/AtlasAudioJulian.jpeg';
 import MixingDeskPic from '../../public/assets/AtlasMixingDeskPic.jpg';
 import { WhatWeDoCard, WhatWeDoCardRev } from './index.js';
 
@@ -10,15 +10,15 @@ const cardContent = {
     headingText: 'A range of musical services tailored for your media.',
     pText:
       'Looking for a snappy soundtrack for your podcast? Composition for your RPG inspired game? Catchy background music for your advertisement? We can help bring your media to life. Fully produced within our professional studio, we’re able to provide exactly what your media needs, regardless of genre or style.',
-    picture: HeroPicture,
-    alt: 'Recording Studio',
+    picture: AAAlex,
+    alt: 'Alex from Atlas Audio',
   },
   cardTwo: {
     headingText: 'State of the art Studio',
     pText:
       'Our studio, located in bath, is equipped with all the audio hardware required to make your project come to life. From recording and engineering to editing, mixing and mastering.',
-    picture: GuitarPic,
-    alt: 'Guitar',
+    picture: AAJulian,
+    alt: 'Julian from Atlas Audio',
   },
   cardThree: {
     headingText: 'Pricing',
