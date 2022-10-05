@@ -49,13 +49,38 @@ export default function WhatWeDoCard(props) {
 
       <div className={`${layout.sectionImg} mb-7 pt-4`}>
         <div className="w-[90%] pt-9">
-          <Image
-            alt={props.alt}
-            src={props.picture}
-            className="rounded-[15px]"
-            quality={50}
-            placeholder="blur"
-          />
+          {props.picture !== 'Marketing Video' ? (
+            <Image
+              alt={props.alt}
+              src={props.picture}
+              className="rounded-[15px]"
+              quality={50}
+              placeholder="blur"
+            />
+          ) : (
+            <>
+              <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+                <iframe
+                  src="https://player.vimeo.com/video/756353998?h=2b5481d6f0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  style={{
+                    position: 'absolute',
+                    top: '0',
+                    left: '0',
+                    width: '100%',
+                    height: '100%',
+                  }}
+                  title="Atlas Promo 1st Draft"
+                ></iframe>
+              </div>
+              <script
+                src="https://player.vimeo.com/api/player.js"
+                async
+              ></script>
+            </>
+          )}
         </div>
       </div>
     </motion.section>

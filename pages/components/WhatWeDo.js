@@ -10,8 +10,8 @@ const cardContent = {
     headingText: 'A range of musical services tailored for your media.',
     pText:
       'Looking for a snappy soundtrack for your podcast? Composition for your RPG inspired game? Catchy background music for your advertisement? We can help bring your media to life. Fully produced within our professional studio, we’re able to provide exactly what your media needs, regardless of genre or style.',
-    picture: AAAlex,
-    alt: 'Alex from Atlas Audio',
+    picture: 'Marketing Video',
+    alt: 'Atlas Audio Marketing Video',
   },
   cardTwo: {
     headingText: 'State of the art Studio',
@@ -24,7 +24,7 @@ const cardContent = {
     headingText: 'Pricing',
     pText:
       'We guarantee a personable and professional service, containing open communication as well as a variety of pricing structures to suit your needs and budget. Please use the slider below for a quote based on total length of composition(s) required.',
-    picture: MixingDeskPic,
+    picture: AAAlex,
     alt: 'Mixing Desk',
     slider: <PricingSlider />,
   },
