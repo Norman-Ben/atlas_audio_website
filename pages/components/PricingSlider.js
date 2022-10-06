@@ -52,6 +52,11 @@ export default function PricingSlider() {
         text="Contact Us"
         link="mailto:contact@atlas-audio.co.uk"
       />
+      <ContactUsButton
+        styles={'mt-5 mx-2'}
+        text="Indie Dev Quote"
+        link="/quote"
+      />
     </div>
   );
 }
