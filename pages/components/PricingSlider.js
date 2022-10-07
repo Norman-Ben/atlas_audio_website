@@ -31,8 +31,6 @@ export default function PricingSlider() {
     setPrice(calculatePrice(event.target.value));
   };
 
-  console.log(price);
-
   return (
     <div className="w-full md:w-5/6 my-10">
       <input
