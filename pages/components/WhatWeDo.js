@@ -2,7 +2,7 @@ import React from 'react';
 import PricingSlider from './PricingSlider';
 import AAAlex from '../../public/assets/AtlasAudioAlex.jpeg';
 import AAJulian from '../../public/assets/AtlasAudioJulian.jpeg';
-import MixingDeskPic from '../../public/assets/AtlasMixingDeskPic.jpg';
+import ContactUsButton from './ContactUsButton';
 import { WhatWeDoCard, WhatWeDoCardRev } from './index.js';
 
 const cardContent = {
@@ -26,7 +26,7 @@ const cardContent = {
       'We guarantee a personable and professional service, containing open communication as well as a variety of pricing structures to suit your needs and budget. Please use the slider below for a quote based on total length of composition(s) required.',
     picture: AAAlex,
     alt: 'Mixing Desk',
-    slider: <PricingSlider />,
+    button: <ContactUsButton styles={'mt-5'} text="Contact Us" link="/quote" />,
   },
 };
 
@@ -50,7 +50,7 @@ export default function WhatWeDo() {
         pText={cardContent.cardThree.pText}
         picture={cardContent.cardThree.picture}
         alt={cardContent.cardThree.alt}
-        slider={cardContent.cardThree.slider}
+        button={cardContent.cardThree.button}
       />
     </section>
   );

@@ -44,7 +44,7 @@ export default function WhatWeDoCard(props) {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           {props.pText}
         </p>
-        {props.slider ? props.slider : null}
+        {props.button ? props.button : null}
       </div>
 
       <div className={`${layout.sectionImg} mb-7 pt-4`}>
