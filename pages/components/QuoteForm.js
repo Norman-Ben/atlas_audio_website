@@ -79,19 +79,19 @@ export default function QuoteForm() {
               className="mt-2 w-[80%] rounded-md border border-gray-400 text-white bg-gray-700"
             ></input>
             <label htmlFor="projectName" className="block text-dimWhite mt-5">
-              Genre of Project
+              Type of Project (Film, Game, Podcast, etc.)
             </label>
             <input
               type="text"
               id="projectGenre"
               name="projectGenre"
-              placeholder="Project Genre"
+              placeholder="Project Type"
               value={formState.projectGenre}
               onChange={handleFormChange}
               className="mt-2 w-[80%] rounded-md border border-gray-400 text-white bg-gray-700"
             ></input>
             <label htmlFor="devTime" className="block text-dimWhite mt-5">
-              How long have you been in devleopment?
+              Estimated deadline for project
             </label>
             <select
               name="devTime"
@@ -100,9 +100,11 @@ export default function QuoteForm() {
               onChange={handleFormChange}
               className="mt-2 w-[40%] rounded-md border border-gray-400 text-white bg-gray-700"
             >
-              <option value="0-3 Months">0-3 Months</option>
-              <option value="3-6 Months">3-6 Months</option>
-              <option value="6-12 Months">6-12 Months</option>
+              <option value="0-3 Months">less than 1 Month</option>
+              <option value="0-3 Months">1-3 Months</option>
+              <option value="0-3 Months">3-6 Months</option>
+              <option value="3-6 Months">6-9 Months</option>
+              <option value="6-12 Months">9-12 Months</option>
               <option value="12+ Months">12+ Months</option>
             </select>
             <label htmlFor="devTime" className="block text-dimWhite mt-5">
