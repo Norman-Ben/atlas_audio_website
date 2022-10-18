@@ -21,11 +21,10 @@ export default function QuoteForm() {
       ...formState,
       [event.target.name]: event.target.value,
     });
-    console.log(formState);
   };
 
-  async function handleSubmit(e) {
-    e.preventDefault();
+  async function handleSubmit(event) {
+    event.preventDefault();
   }
 
   return (
