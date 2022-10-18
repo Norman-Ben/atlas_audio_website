@@ -51,19 +51,24 @@ export const footerLinks = [
     title: 'Social Media',
     links: [
       {
+        title: 'Twitter',
+        id: 'https://twitter.com/AtlasAudioUK',
+        img: '/assets/twitter.svg',
+      },
+      {
         title: 'Instagram',
         id: 'https://www.instagram.com/atlasaudiouk/',
         img: '/assets/instagram.svg',
       },
       {
-        title: 'Facebook',
-        id: 'https://www.facebook.com/AtlasAudioUK',
-        img: '/assets/facebook.svg',
-      },
-      {
         title: 'Youtube',
         id: 'https://www.youtube.com/channel/UCsbBix1KNZYDmftlwQplQuw',
         img: '/assets/youtube.svg',
+      },
+      {
+        title: 'Facebook',
+        id: 'https://www.facebook.com/AtlasAudioUK',
+        img: '/assets/facebook.svg',
       },
       {
         title: 'Soundcloud',
