@@ -1,9 +1,8 @@
 import React from 'react';
-import PricingSlider from './PricingSlider';
 import AAAlex from '../../public/assets/AtlasAudioAlex.jpeg';
 import AAJulian from '../../public/assets/AtlasAudioJulian.jpeg';
 import ContactUsButton from './ContactUsButton';
-import { WhatWeDoCard, WhatWeDoCardRev } from './index.js';
+import { LayoutCard, LayoutCardRev } from './index.js';
 
 const cardContent = {
   cardOne: {
@@ -33,19 +32,19 @@ const cardContent = {
 export default function WhatWeDo() {
   return (
     <section>
-      <WhatWeDoCard
+      <LayoutCard
         headingText={cardContent.cardOne.headingText}
         pText={cardContent.cardOne.pText}
         picture={cardContent.cardOne.picture}
         alt={cardContent.cardOne.alt}
       />
-      <WhatWeDoCardRev
+      <LayoutCardRev
         headingText={cardContent.cardTwo.headingText}
         pText={cardContent.cardTwo.pText}
         picture={cardContent.cardTwo.picture}
         alt={cardContent.cardTwo.alt}
       />
-      <WhatWeDoCard
+      <LayoutCard
         headingText={cardContent.cardThree.headingText}
         pText={cardContent.cardThree.pText}
         picture={cardContent.cardThree.picture}

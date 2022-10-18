@@ -7,8 +7,8 @@ import WhatWeDo from '../components/WhatWeDo';
 import AboutContent from '../components/AboutContent';
 import PortfolioContent from '../components/PortfolioContent';
 import ContactContent from '../components/ContactContent';
-import WhatWeDoCard from '../components/WhatWeDoCard';
-import WhatWeDoCardRev from '../components/WhatWeDoCardRev';
+import LayoutCard from './LayoutCard';
+import LayoutCardRev from './LayoutCardRev';
 import QuoteForm from '../components/QuoteForm';
 
 export {
@@ -21,7 +21,7 @@ export {
   AboutContent,
   PortfolioContent,
   ContactContent,
-  WhatWeDoCard,
-  WhatWeDoCardRev,
+  LayoutCard,
+  LayoutCardRev,
   QuoteForm,
 };

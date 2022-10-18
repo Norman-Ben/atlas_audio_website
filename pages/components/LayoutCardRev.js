@@ -19,7 +19,7 @@ const cardAnimation = {
   },
 };
 
-export default function WhatWeDoCardRev(props) {
+export default function LayoutCardRev(props) {
   const animationControl = useAnimation();
   const [cardRef, inView] = useInView();
 
