@@ -11,20 +11,34 @@ export default function QuoteForm() {
     projectLength: '',
     projectGenre: '',
     devTime: '',
-    addtionalComments: '',
+    additionalComments: '',
   };
 
   const [formState, setFormState] = useState(formInitialState);
 
+  //Updates the formState on user input
   const handleFormChange = (event) => {
     setFormState({
       ...formState,
       [event.target.name]: event.target.value,
     });
   };
+  //Handles the submission of the form by calling the "QuoteFormSubmit.js" API and sending form data object with it.
+  async function handleSubmit(e) {
+    e.preventDefault();
+    const formContents = {};
 
-  async function handleSubmit(event) {
-    event.preventDefault();
+    Array.from(e.currentTarget.elements).forEach((field) => {
+      if (!field.name) return;
+      formContents[field.name] = field.value;
+    });
+
+    await fetch('/api/QuoteFormSubmit', {
+      method: 'POST',
+      body: JSON.stringify(formContents),
+    });
+    // setFormState(formInitialState);
+    console.log(formContents);
   }
 
   return (
@@ -36,7 +50,7 @@ export default function QuoteForm() {
           className="md:w-[90%] w-[65%] rounded-[15px] relative z-[5]"
         />
       </div>
-      <form method="post" onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <div className={`${styles.paragraph} max-w-[470px] mt-5`}>
           <div className={layout.sectionInfo}>
             <h2 className={styles.heading2}>
@@ -100,11 +114,11 @@ export default function QuoteForm() {
               onChange={handleFormChange}
               className="mt-2 w-[40%] rounded-md border border-gray-400 text-white bg-gray-700"
             >
-              <option value="0-3 Months">less than 1 Month</option>
-              <option value="0-3 Months">1-3 Months</option>
-              <option value="0-3 Months">3-6 Months</option>
-              <option value="3-6 Months">6-9 Months</option>
-              <option value="6-12 Months">9-12 Months</option>
+              <option value="less than 1 month">less than 1 Month</option>
+              <option value="1-3 Months">1-3 Months</option>
+              <option value="3-6 Months">3-6 Months</option>
+              <option value="6-9 Months">6-9 Months</option>
+              <option value="9-12 Months">9-12 Months</option>
               <option value="12+ Months">12+ Months</option>
             </select>
             <label htmlFor="devTime" className="block text-dimWhite mt-5">
@@ -120,15 +134,15 @@ export default function QuoteForm() {
               className="mt-2 w-[40%] rounded-md border border-gray-400 text-white bg-gray-700"
             ></input>
             <label
-              htmlFor="addtionalComments"
+              htmlFor="additionalComments"
               className="block text-dimWhite mt-5"
             >
-              Addtional Comments
+              Additional Comments
             </label>
             <textarea
-              name="addtionalComments"
-              id="addtionalComments"
-              value={formState.addtionalComments}
+              name="additionalComments"
+              id="additionalComments"
+              value={formState.additionalComments}
               onChange={handleFormChange}
               cols="30"
               rows="5"
@@ -137,7 +151,6 @@ export default function QuoteForm() {
             ></textarea>
             <button
               className={`my-3 py-3 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}
-              onClick={handleSubmit}
             >
               Submit
             </button>
