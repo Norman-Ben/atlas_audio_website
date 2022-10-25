@@ -34,7 +34,7 @@ export default function Footer() {
                 {footerlink.links.map((link, index) => (
                   <li
                     key={link.id}
-                    className={`font-poppins font-normal text-[16px] leading-[30px] text-dimWhite hover:text-secondary cursor-pointer mx-4 my-4`}
+                    className={`font-poppins font-normal text-[16px] leading-[30px] text-dimWhite hover:text-harvestGold cursor-pointer mx-4 my-4`}
                   >
                     <a href={link.id}>
                       {/* Logic to display Site Links or Social Media Icons depending on which array is being mapped */}

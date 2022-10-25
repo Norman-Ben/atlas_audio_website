@@ -25,7 +25,9 @@ const cardContent = {
       'We guarantee a personable and professional service, containing open communication as well as a variety of pricing structures to suit your needs and budget. Please use the slider below for a quote based on total length of composition(s) required.',
     picture: AAAlex,
     alt: 'Mixing Desk',
-    button: <ContactUsButton styles={'mt-5'} text="Contact Us" link="/quote" />,
+    button: (
+      <ContactUsButton styles={'mt-5'} text="Get a Quote" link="/quote" />
+    ),
   },
 };
 

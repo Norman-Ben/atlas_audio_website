@@ -162,8 +162,8 @@ export default function QuoteForm() {
             ></textarea>
             <button
               className={`my-3 py-3 px-6 font-poppins font-medium text-[18px] text-primary ${
-                formSubmitted ? 'bg-slate-600' : 'bg-blue-gradient'
-              } rounded-[10px] outline-none ${styles}`}
+                formSubmitted ? 'bg-slate-600' : 'bg-harvestGold'
+              } rounded-[10px] outline-none ${styles} hover:bg-[#ffa600]`}
               disabled={formSubmitted}
             >
               {formSubmitted ? 'Form Submitted!' : 'Submit'}
