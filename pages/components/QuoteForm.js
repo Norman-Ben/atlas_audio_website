@@ -16,6 +16,8 @@ export default function QuoteForm() {
 
   const [formState, setFormState] = useState(formInitialState);
 
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
   //Updates the formState on user input
   const handleFormChange = (event) => {
     setFormState({
@@ -37,8 +39,8 @@ export default function QuoteForm() {
       method: 'POST',
       body: JSON.stringify(formContents),
     });
-    // setFormState(formInitialState);
-    console.log(formContents);
+    setFormState(formInitialState);
+    setFormSubmitted(true);
   }
 
   return (
@@ -57,48 +59,53 @@ export default function QuoteForm() {
               Tell us about you and your project
             </h2>
             <label htmlFor="fullName" className="block text-dimWhite mt-5">
-              Name
+              Name<span className="text-harvestGold">*</span>
             </label>
             <input
               type="text"
               placeholder="Full Name"
               id="fullName"
               name="fullName"
+              required
               value={formState.fullName}
               onChange={handleFormChange}
               className="mt-2 w-[80%] rounded-md border border-gray-400 text-white bg-gray-700"
             ></input>
             <label htmlFor="email" className="block text-dimWhite mt-5">
-              Email
+              Email<span className="text-harvestGold">*</span>
             </label>
             <input
               type="email"
               placeholder="Email"
               id="email"
               name="email"
+              required
               value={formState.email}
               onChange={handleFormChange}
               className="mt-2 w-[80%] rounded-md border border-gray-400 text-white bg-gray-700"
             ></input>
             <label htmlFor="projectName" className="block text-dimWhite mt-5">
-              Name of Project
+              Name of Project<span className="text-harvestGold">*</span>
             </label>
             <input
               type="text"
               id="projectName"
               name="projectName"
               placeholder="Project Name"
+              required
               value={formState.projectName}
               onChange={handleFormChange}
               className="mt-2 w-[80%] rounded-md border border-gray-400 text-white bg-gray-700"
             ></input>
             <label htmlFor="projectName" className="block text-dimWhite mt-5">
               Type of Project (Film, Game, Podcast, etc.)
+              <span className="text-harvestGold">*</span>
             </label>
             <input
               type="text"
               id="projectGenre"
               name="projectGenre"
+              required
               placeholder="Project Type"
               value={formState.projectGenre}
               onChange={handleFormChange}
@@ -106,10 +113,12 @@ export default function QuoteForm() {
             ></input>
             <label htmlFor="devTime" className="block text-dimWhite mt-5">
               Estimated deadline for project
+              <span className="text-harvestGold">*</span>
             </label>
             <select
               name="devTime"
               id="devTime"
+              required
               value={formState.devTime}
               onChange={handleFormChange}
               className="mt-2 w-[40%] rounded-md border border-gray-400 text-white bg-gray-700"
@@ -123,11 +132,13 @@ export default function QuoteForm() {
             </select>
             <label htmlFor="devTime" className="block text-dimWhite mt-5">
               Estimated Length of OST (in minutes)
+              <span className="text-harvestGold">*</span>
             </label>
             <input
               type="number"
               id="projectLength"
               name="projectLength"
+              required
               placeholder="OST Length"
               value={formState.projectLength}
               onChange={handleFormChange}
@@ -150,10 +161,23 @@ export default function QuoteForm() {
               className="mt-2 w-[80%] rounded-md border border-gray-400 text-white bg-gray-700"
             ></textarea>
             <button
-              className={`my-3 py-3 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}
+              className={`my-3 py-3 px-6 font-poppins font-medium text-[18px] text-primary ${
+                formSubmitted ? 'bg-slate-600' : 'bg-blue-gradient'
+              } rounded-[10px] outline-none ${styles}`}
+              disabled={formSubmitted}
             >
-              Submit
+              {formSubmitted ? 'Form Submitted!' : 'Submit'}
             </button>
+            <p>
+              If you would like to provide us with further information please
+              contact us at: <br />
+              <a
+                href="mailto:contact@atlas-audio.co.uk"
+                className="underline text-white"
+              >
+                contact@atlas-audio.co.uk
+              </a>
+            </p>
           </div>
         </div>
       </form>
