@@ -57,6 +57,24 @@ export default function AboutContent() {
       <section className={layout.sectionReverse}>
         <div className={`${layout.sectionImgReverse}`}>
           <Image
+            src={LcbTestimonial}
+            alt="Lights Camera Blokes Image"
+            className="md:w-[90%] w-[65%] rounded-[15px] relative z-[5]"
+          />
+        </div>
+        <div className={layout.sectionInfo}>
+          <h2 className={styles.heading2}>Lights, Cameras, Blokes</h2>
+          <p className={`${styles.paragraph} max-w-[470px] mt-5 pb-7`}>
+            “Working with Atlas Audio to bring music to my podcast was a
+            brilliant experience. They bought a lot of talent and skill to a
+            process that felt genuinely collaborative and definitely elevated
+            our project.”
+          </p>
+        </div>
+      </section>
+      <section className={layout.sectionReverse}>
+        <div className={`${layout.sectionImgReverse}`}>
+          <Image
             src={HhtTestimonial}
             alt="Home Health Truth Image"
             className="md:w-[90%] w-[65%] rounded-[15px] relative z-[5]"
@@ -70,24 +88,6 @@ export default function AboutContent() {
             brand. They really payed attention to my vision, and kept me in the
             loop throughout the process. These boys delivered a unique, and
             entire soundscape.”
-          </p>
-        </div>
-      </section>
-      <section className={layout.sectionReverse}>
-        <div className={`${layout.sectionImgReverse}`}>
-          <Image
-            src={LcbTestimonial}
-            alt="Lights Camera Blokes Image"
-            className="md:w-[90%] w-[65%] rounded-[15px] relative z-[5]"
-          />
-        </div>
-        <div className={layout.sectionInfo}>
-          <h2 className={styles.heading2}>Lights, Cameras, Blokes</h2>
-          <p className={`${styles.paragraph} max-w-[470px] mt-5 pb-7`}>
-            “Working with Atlas Audio to bring music to my podcast was a
-            brilliant experience. They bought a lot of talent and skill to a
-            process that felt genuinely collaborative and definitely elevated
-            our project.”
           </p>
         </div>
       </section>
