@@ -3,6 +3,7 @@ import styles, { layout } from '../style';
 import Image from 'next/image';
 import HhtTestimonial from '../../public/assets/HHT-Testimonial.jpeg';
 import LcbTestimonial from '../../public/assets/LCB-Testimonial.jpeg';
+import UtopianDreamTestimonial from '../../public/assets/UtopianDreamTestimonial.png';
 
 export default function AboutContent() {
   const [isReadMore, setIsReadMore] = React.useState(false);
@@ -15,16 +16,11 @@ export default function AboutContent() {
     <section>
       <section className={`md:${layout.section} ${layout.sectionReverse}`}>
         <div className={`${layout.sectionImgReverse}`}>
-          <div className="relative overflow-hidden pt-[56.25%] w-full">
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/itGV60ndqMI"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="absolute top-0 left-0 w-full h-full"
-            ></iframe>
-          </div>
+          <Image
+            src={UtopianDreamTestimonial}
+            alt="Utopian Dream Testimonial"
+            className="md:w-[90%] w-[65%] rounded-[15px] relative z-[5]"
+          />
         </div>
         <div className={layout.sectionInfo}>
           <h2 className={styles.heading2}>
