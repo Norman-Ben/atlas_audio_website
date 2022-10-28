@@ -3,8 +3,8 @@ import styles, { layout } from '../style';
 import Image from 'next/image';
 import AboutImage from '../../public/assets/AtlasAudioAboutPic.jpeg';
 import JulianHeadshot from '../../public/assets/AtlasAudioJulian.jpeg';
-import AlexHeadshot from '../../public/assets/AlexHeadshot.jpg';
-import JakeHeadshot from '../../public/assets/JakeHeadshot.jpg';
+import AlexHeadshot from '../../public/assets/AlexHeadshot.jpeg';
+import JakeHeadshot from '../../public/assets/JakeHeadshot.jpeg';
 
 export default function AboutContent() {
   return (
