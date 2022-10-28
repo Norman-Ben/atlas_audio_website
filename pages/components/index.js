@@ -10,6 +10,7 @@ import ContactContent from '../components/ContactContent';
 import LayoutCard from './LayoutCard';
 import LayoutCardRev from './LayoutCardRev';
 import QuoteForm from '../components/QuoteForm';
+import BarnStudioContent from './BarnStudioContent';
 
 export {
   Navbar,
@@ -24,4 +25,5 @@ export {
   LayoutCard,
   LayoutCardRev,
   QuoteForm,
+  BarnStudioContent,
 };
