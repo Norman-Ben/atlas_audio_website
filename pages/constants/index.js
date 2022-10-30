@@ -16,6 +16,10 @@ export const navLinks = [
     title: 'Testimonials',
   },
   {
+    id: 'thebarnstudio',
+    title: 'The Barn Studio',
+  },
+  {
     id: 'contact',
     title: 'Contact Us',
   },
@@ -40,6 +44,10 @@ export const footerLinks = [
       {
         id: 'testimonials',
         title: 'Testimonials',
+      },
+      {
+        id: 'thebarnstudio',
+        title: 'The Barn Studio',
       },
       {
         id: 'contact',
