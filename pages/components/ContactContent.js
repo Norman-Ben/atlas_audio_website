@@ -3,7 +3,7 @@ import styles, { layout } from '../style';
 import Image from 'next/image';
 import ContactUsButton from './ContactUsButton';
 import { footerLinks } from '../constants';
-import KeysPic from '../../public/assets/AtlasKeysPic.webp';
+import AboutPic from '../../public/assets/AtlasGuitarPic.jpg';
 
 export default function ContactContent() {
   let socialMediaLinks = footerLinks[1].links;
@@ -12,7 +12,7 @@ export default function ContactContent() {
     <section className={layout.sectionReverse}>
       <div className={`${layout.sectionImgReverse}`}>
         <Image
-          src={KeysPic}
+          src={AboutPic}
           alt="Keybaord player"
           className="md:w-[90%] w-[65%] rounded-[15px] relative z-[5]"
         />

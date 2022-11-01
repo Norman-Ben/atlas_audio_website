@@ -2,7 +2,7 @@ import React from 'react';
 import styles, { layout } from '../style';
 import Image from 'next/image';
 import AboutImage from '../../public/assets/AtlasAudioAboutPic.jpeg';
-import JulianHeadshot from '../../public/assets/AtlasAudioJulian.jpeg';
+import JulianHeadshot from '../../public/assets/JulianHeadshot.jpeg';
 import AlexHeadshot from '../../public/assets/AlexHeadshot.jpeg';
 import JakeHeadshot from '../../public/assets/JakeHeadshot.jpeg';
 

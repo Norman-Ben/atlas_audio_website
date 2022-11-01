@@ -1,6 +1,6 @@
 import React from 'react';
-import AAAlex from '../../public/assets/AtlasAudioAlex.jpeg';
-import AAJulian from '../../public/assets/AtlasAudioJulian.jpeg';
+import StudioPic from '../../public/assets/AtlasStudioPic.jpeg';
+import PricingPic from '../../public/assets/AtlasPricingPic.jpeg';
 import ContactUsButton from './ContactUsButton';
 import { LayoutCard, LayoutCardRev } from './index.js';
 
@@ -15,15 +15,15 @@ const cardContent = {
   cardTwo: {
     headingText: 'State of the art Studio',
     pText:
-      'Our studio, located in bath, is equipped with all the audio hardware required to make your project come to life. From recording and engineering to editing, mixing and mastering.',
-    picture: AAJulian,
+      'Our studio, located in bath, is equipped with all the audio hardware required to make your Juproject come to life. From recording and engineering to editing, mixing and mastering.',
+    picture: StudioPic,
     alt: 'Julian from Atlas Audio',
   },
   cardThree: {
     headingText: 'Pricing',
     pText:
       'We guarantee a personable and professional service, containing open communication as well as a variety of pricing structures to suit your needs and budget. Please use the slider below for a quote based on total length of composition(s) required.',
-    picture: AAAlex,
+    picture: PricingPic,
     alt: 'Mixing Desk',
     button: (
       <ContactUsButton styles={'mt-5'} text="Get a Quote" link="/quote" />
