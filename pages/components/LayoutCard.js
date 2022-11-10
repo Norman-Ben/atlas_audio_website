@@ -61,7 +61,7 @@ export default function LayoutCard(props) {
             <>
               <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
                 <iframe
-                  src="https://player.vimeo.com/video/756353998?h=2b5481d6f0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                  src="https://player.vimeo.com/video/766999477?h=2b5481d6f0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                   frameBorder="0"
                   allow="autoplay; fullscreen; picture-in-picture"
                   allowFullScreen
