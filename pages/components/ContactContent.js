@@ -20,8 +20,7 @@ export default function ContactContent() {
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>Contact Us</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Interested in bringing your media to life with bespoke composition?
-          Feel free to contact us below for more information.
+          Need a soundtrack? Let&apos;s get started.
         </p>
 
         <ContactUsButton
