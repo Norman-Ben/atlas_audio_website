@@ -1,9 +1,9 @@
 import React from 'react';
-import styles, { layout } from '../style';
+import styles, { layout } from '../pages/style';
 import Image from 'next/image';
-import HhtTestimonial from '../../public/assets/HHT-Testimonial.jpeg';
-import LcbTestimonial from '../../public/assets/LCB-Testimonial.jpeg';
-import UtopianDreamTestimonial from '../../public/assets/UtopianDreamTestimonial.png';
+import HhtTestimonial from '../public/assets/HHT-Testimonial.jpeg';
+import LcbTestimonial from '../public/assets/LCB-Testimonial.jpeg';
+import UtopianDreamTestimonial from '../public/assets/UtopianDreamTestimonial.png';
 
 export default function AboutContent() {
   const [isReadMore, setIsReadMore] = React.useState(false);

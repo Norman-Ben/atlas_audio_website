@@ -1,10 +1,10 @@
 import React from 'react';
-import styles, { layout } from '../style';
+import styles, { layout } from '../pages/style';
 import Image from 'next/image';
-import AboutImage from '../../public/assets/BarnSign.jpg';
-import JulianHeadshot from '../../public/assets/JulianHeadshot.jpeg';
-import AlexHeadshot from '../../public/assets/AlexHeadshot.jpeg';
-import JakeHeadshot from '../../public/assets/JakeHeadshot.jpeg';
+import AboutImage from '../public/assets/BarnSign.jpg';
+import JulianHeadshot from '../public/assets/JulianHeadshot.jpeg';
+import AlexHeadshot from '../public/assets/AlexHeadshot.jpeg';
+import JakeHeadshot from '../public/assets/JakeHeadshot.jpeg';
 
 export default function AboutContent() {
   return (

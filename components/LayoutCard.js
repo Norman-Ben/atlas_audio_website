@@ -1,5 +1,5 @@
 import { React, useEffect } from 'react';
-import styles, { layout } from '../style';
+import styles, { layout } from '../pages/style';
 import Image from 'next/image';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';

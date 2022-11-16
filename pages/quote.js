@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './style.js';
-import { Navbar, Footer, QuoteForm } from './components/index.js';
+import { Navbar, Footer, QuoteForm } from '../components/index.js';
 
 export default function Quote() {
   return (

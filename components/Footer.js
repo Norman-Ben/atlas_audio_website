@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from '../style';
+import styles from '../pages/style';
 import Image from 'next/image';
-import { footerLinks } from '../constants';
-import AtlasAudioLogo from '../../public/assets/AtlasAudioLogoWhite.png';
+import { footerLinks } from '../pages/constants';
+import AtlasAudioLogo from '../public/assets/AtlasAudioLogoWhite.png';
 
 export default function Footer() {
   return (

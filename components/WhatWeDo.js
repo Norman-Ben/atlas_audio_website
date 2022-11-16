@@ -1,6 +1,6 @@
 import React from 'react';
-import StudioPic from '../../public/assets/AtlasStudioPic.jpeg';
-import PricingPic from '../../public/assets/AtlasPricingPic.jpeg';
+import StudioPic from '../public/assets/AtlasStudioPic.jpeg';
+import PricingPic from '../public/assets/AtlasPricingPic.jpeg';
 import ContactUsButton from './ContactUsButton';
 import { LayoutCard, LayoutCardRev } from './index.js';
 

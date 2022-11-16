@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../style.js';
+import styles from '../pages/style';
 
 export default function Hero() {
   return (

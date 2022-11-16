@@ -1,5 +1,5 @@
 import styles from './style.js';
-import { Navbar, WhatWeDo, Footer, Hero } from './components/index.js';
+import { Navbar, WhatWeDo, Footer, Hero } from '../components/index.js';
 
 export default function Home() {
   return (

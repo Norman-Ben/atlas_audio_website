@@ -1,13 +1,13 @@
 import { React, useEffect, useCallback } from 'react';
-import styles, { layout } from '../style';
+import styles, { layout } from '../pages/style';
 import Image from 'next/image';
 import useEmblaCarousel from 'embla-carousel-react';
-import StudioSynths from '../../public/assets/BarnStudioPics/StudioSynths.jpeg';
-import StudioMixingDesk from '../../public/assets/BarnStudioPics/StudioMixingDesk.jpeg';
-import StudioControlRoom from '../../public/assets/BarnStudioPics/StudioControlRoom.JPG';
-import StudioGuitars from '../../public/assets/BarnStudioPics/StudioGuitars.jpeg';
-import Next from '../../public/assets/Next.svg';
-import Back from '../../public/assets/Back.svg';
+import StudioSynths from '../public/assets/BarnStudioPics/StudioSynths.jpeg';
+import StudioMixingDesk from '../public/assets/BarnStudioPics/StudioMixingDesk.jpeg';
+import StudioControlRoom from '../public/assets/BarnStudioPics/StudioControlRoom.JPG';
+import StudioGuitars from '../public/assets/BarnStudioPics/StudioGuitars.jpeg';
+import Next from '../public/assets/Next.svg';
+import Back from '../public/assets/Back.svg';
 
 export default function BarnStudioContent() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });

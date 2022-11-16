@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import { navLinks } from '../constants';
-import AtlasAudioLogo from '../../public/assets/AtlasAudioLogoWhite.png';
+import { navLinks } from '../pages/constants';
+import AtlasAudioLogo from '../public/assets/AtlasAudioLogoWhite.png';
 
 export default function Navbar() {
   const [mobileMenuToggle, setMobileMenuToggle] = useState(false);

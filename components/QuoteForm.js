@@ -1,7 +1,7 @@
 import { React, useState } from 'react';
-import styles, { layout } from '../style';
+import styles, { layout } from '../pages/style';
 import Image from 'next/image';
-import MixingDesk from '../../public/assets/MixingDesk.jpeg';
+import MixingDesk from '../public/assets/MixingDesk.jpeg';
 
 export default function QuoteForm() {
   const formInitialState = {

@@ -1,9 +1,9 @@
 import React from 'react';
-import styles, { layout } from '../style';
+import styles, { layout } from '../pages/style';
 import Image from 'next/image';
 import ContactUsButton from './ContactUsButton';
-import { footerLinks } from '../constants';
-import AboutPic from '../../public/assets/AtlasGuitarPic.jpg';
+import { footerLinks } from '../pages/constants';
+import AboutPic from '../public/assets/AtlasGuitarPic.jpg';
 
 export default function ContactContent() {
   let socialMediaLinks = footerLinks[1].links;
