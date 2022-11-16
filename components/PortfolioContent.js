@@ -1,5 +1,5 @@
 import React from 'react';
-import styles, { layout } from '../pages/style';
+import styles, { layout } from '../pages/constants/style';
 
 export default function PortfolioContent() {
   return (

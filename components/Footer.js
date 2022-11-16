@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../pages/style';
+import styles from '../pages/constants/style';
 import Image from 'next/image';
 import { footerLinks } from '../pages/constants';
 import AtlasAudioLogo from '../public/assets/AtlasAudioLogoWhite.png';

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './style.js';
+import styles from '../pages/constants/style';
 import { Navbar, Footer, QuoteForm } from '../components/index.js';
 
 export default function Quote() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles, { layout } from '../pages/style';
+import styles, { layout } from '../pages/constants/style';
 import Image from 'next/image';
 import AboutImage from '../public/assets/BarnSign.jpg';
 import JulianHeadshot from '../public/assets/JulianHeadshot.jpeg';

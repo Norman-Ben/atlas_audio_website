@@ -1,5 +1,5 @@
 import React from 'react';
-import styles, { layout } from '../pages/style';
+import styles, { layout } from '../pages/constants/style';
 import Image from 'next/image';
 import HhtTestimonial from '../public/assets/HHT-Testimonial.jpeg';
 import LcbTestimonial from '../public/assets/LCB-Testimonial.jpeg';
