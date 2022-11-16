@@ -1,7 +1,7 @@
 import React from 'react';
 import styles, { layout } from '../style';
 import Image from 'next/image';
-import AboutImage from '../../public/assets/AtlasAudioAboutPic.jpeg';
+import AboutImage from '../../public/assets/BarnSign.jpg';
 import JulianHeadshot from '../../public/assets/JulianHeadshot.jpeg';
 import AlexHeadshot from '../../public/assets/AlexHeadshot.jpeg';
 import JakeHeadshot from '../../public/assets/JakeHeadshot.jpeg';
@@ -18,15 +18,12 @@ export default function AboutContent() {
           />
         </div>
         <div className={layout.sectionInfo}>
-          <h2 className={styles.heading2}>About Atlas Audio</h2>
+          <h2 className={styles.heading2}>About Us</h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            Atlas Audio, formed by creative duo Alex Adams and Julian Kirk, is a
-            music for media company where bespoke soundtracks are born and
-            uniquely crafted to suit their purpose. Since childhood, Alex and
-            Julian have been composing both in bands and technology. Inspired by
-            their love of Games, TV & Film, and a special energy of passion and
-            oneupmanship, Atlas Audio is the culmination of a combined love of
-            crafting sound worlds to a brief.
+            Atlas Audio is the brainchild of Julian, Alex & Jake, a creative hub
+            for musicians to make music. Whether for their own creative outlet,
+            or to augment visual or interactive media, it is the essence of
+            creativity, and the birthplace of your soundtrack.
           </p>
         </div>
       </section>

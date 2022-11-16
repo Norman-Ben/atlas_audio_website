@@ -20,8 +20,7 @@ export default function Hero() {
         </div>
 
         <p className={`${styles.paragraph} max-w-[470px] my-5`}>
-          Custom Soundtracks - Podcast themes - Audiobook themes - Video Game
-          OSTs - Mixing & Mastering - Studio Engineering
+          Recording and Engineering - Mixing and Mastering - Bespoke Soundtracks
         </p>
       </div>
     </section>

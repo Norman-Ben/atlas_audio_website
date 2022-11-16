@@ -6,23 +6,23 @@ import { LayoutCard, LayoutCardRev } from './index.js';
 
 const cardContent = {
   cardOne: {
-    headingText: 'A range of musical services tailored for your media.',
+    headingText: 'Hire a Drummer.',
     pText:
-      'Looking for a snappy soundtrack for your podcast? Composition for your RPG inspired game? Catchy background music for your advertisement? We can help bring your media to life. Fully produced within our professional studio, we’re able to provide exactly what your media needs, regardless of genre or style.',
+      'In need of a dedicated drummer to bring your track to life? Look no further than our remote service, hosted on Zoom for your convenience.',
     picture: 'Marketing Video',
     alt: 'Atlas Audio Marketing Video',
   },
   cardTwo: {
-    headingText: 'State of the art Studio',
+    headingText: 'State of the Art Studio',
     pText:
-      'Our studio, located in bath, is equipped with all the audio hardware required to make your Juproject come to life. From recording and engineering to editing, mixing and mastering.',
+      'The Barn Studio live room and control room are primed and ready to take your track from inception to completion. Find us between Bath & Bristol, close to the beautiful village Chew Magna.',
     picture: StudioPic,
     alt: 'Julian from Atlas Audio',
   },
   cardThree: {
     headingText: 'Pricing',
     pText:
-      'We guarantee a personable and professional service, containing open communication as well as a variety of pricing structures to suit your needs and budget. Please use the slider below for a quote based on total length of composition(s) required.',
+      'Whatever it is that your project needs, we’re here to help. Audio services don’t need to cost an arm and a leg, but it does vary from project to project. Fill in the form, and tell us about what makes your project special, and we’ll take it from there.',
     picture: PricingPic,
     alt: 'Mixing Desk',
     button: (

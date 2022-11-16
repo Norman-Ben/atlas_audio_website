@@ -72,6 +72,7 @@ export default function BarnStudioContent() {
             </div>
           </div>
         </div>
+<<<<<<< HEAD
         <div className={layout.sectionInfo}>
           <h2 className={styles.heading2}>The Barn Studio</h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -92,5 +93,19 @@ export default function BarnStudioContent() {
         height="400"
       ></iframe>
     </>
+=======
+      </div>
+      <div className={layout.sectionInfo}>
+        <h2 className={styles.heading2}>The Barn Studio</h2>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+          Packed to the brim with new and old keyboards, guitars, basses, amps,
+          speakers, drums, mics & more. The Barn Studio is our soundscape
+          sandbox, and it can be yours too. Whether you’re looking for a
+          soundtrack for your game, or a place to come and record your latest
+          album, we do it all.
+        </p>
+      </div>
+    </section>
+>>>>>>> 54f981dfb194340a2eec4375be66906f4c0b3e4b
   );
 }

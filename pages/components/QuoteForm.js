@@ -55,9 +55,7 @@ export default function QuoteForm() {
       <form onSubmit={handleSubmit}>
         <div className={`${styles.paragraph} max-w-[470px] mt-5`}>
           <div className={layout.sectionInfo}>
-            <h2 className={styles.heading2}>
-              Tell us about you and your project
-            </h2>
+            <h2 className={styles.heading2}>What&apos;s your project?</h2>
             <label htmlFor="fullName" className="block text-dimWhite mt-5">
               Name<span className="text-harvestGold">*</span>
             </label>
