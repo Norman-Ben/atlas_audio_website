@@ -1,8 +1,8 @@
 import React from 'react';
-import styles, { layout } from '../pages/constants/style';
+import styles, { layout } from '../constants/style';
 import Image from 'next/image';
 import ContactUsButton from './ContactUsButton';
-import { footerLinks } from '../pages/constants';
+import { footerLinks } from '../constants';
 import AboutPic from '../public/assets/AtlasGuitarPic.jpg';
 
 export default function ContactContent() {

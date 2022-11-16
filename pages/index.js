@@ -1,4 +1,4 @@
-import styles from '../pages/constants/style';
+import styles from '../constants/style';
 import { Navbar, WhatWeDo, Footer, Hero } from '../components/index';
 
 export default function Home() {

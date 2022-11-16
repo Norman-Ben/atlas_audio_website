@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import { navLinks } from '../pages/constants';
+import { navLinks } from '../constants';
 import AtlasAudioLogo from '../public/assets/AtlasAudioLogoWhite.png';
 
 export default function Navbar() {

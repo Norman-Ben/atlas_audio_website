@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../pages/constants/style';
+import styles from '../constants/style';
 import { Navbar, Footer, ContactContent } from '../components/index.js';
 
 export default function Contact() {

@@ -1,5 +1,5 @@
 import { React, useState } from 'react';
-import styles, { layout } from '../pages/constants/style';
+import styles, { layout } from '../constants/style';
 import Image from 'next/image';
 import MixingDesk from '../public/assets/MixingDesk.jpeg';
 
