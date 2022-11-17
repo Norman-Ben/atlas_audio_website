@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+        <div className={`${styles.boxWidth} max-w-[1280px]`}>
           <Navbar />
         </div>
       </div>
