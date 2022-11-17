@@ -44,7 +44,7 @@ export default function QuoteForm() {
   }
 
   return (
-    <section className={`md:${layout.section} ${layout.sectionReverse}`}>
+    <section className={`md:${layout.section} ${layout.sectionReverse} gap-10`}>
       <div className={`${layout.sectionImgReverse}`}>
         <Image
           src={MixingDesk}

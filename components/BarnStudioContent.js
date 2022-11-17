@@ -27,7 +27,7 @@ export default function BarnStudioContent() {
   }, [emblaApi]);
   return (
     <>
-      <section className={layout.sectionReverse}>
+      <section className={`${layout.sectionReverse} gap-10`}>
         <div className={`${layout.sectionImgReverse}`}>
           <div className="embla">
             <div className="embla__viewport" ref={emblaRef}>

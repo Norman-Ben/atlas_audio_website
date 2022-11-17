@@ -26,7 +26,11 @@ const cardContent = {
     picture: PricingPic,
     alt: 'Mixing Desk',
     button: (
-      <ContactUsButton styles={'mt-5'} text="Get a Quote" link="/quote" />
+      <ContactUsButton
+        styles={'mt-5 max-w-[180px]'}
+        text="Get a Quote"
+        link="/quote"
+      />
     ),
   },
 };

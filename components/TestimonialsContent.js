@@ -14,7 +14,9 @@ export default function AboutContent() {
 
   return (
     <section>
-      <section className={`md:${layout.section} ${layout.sectionReverse}`}>
+      <section
+        className={`md:${layout.section} ${layout.sectionReverse} gap-10`}
+      >
         <div className={`${layout.sectionImgReverse}`}>
           <Image
             src={UtopianDreamTestimonial}
@@ -50,7 +52,7 @@ export default function AboutContent() {
         </div>
       </section>
 
-      <section className={layout.sectionReverse}>
+      <section className={`${layout.sectionReverse} gap-10`}>
         <div className={`${layout.sectionImgReverse}`}>
           <Image
             src={LcbTestimonial}
@@ -68,7 +70,7 @@ export default function AboutContent() {
           </p>
         </div>
       </section>
-      <section className={layout.sectionReverse}>
+      <section className={`${layout.sectionReverse} gap-10`}>
         <div className={`${layout.sectionImgReverse}`}>
           <Image
             src={HhtTestimonial}

@@ -9,22 +9,22 @@ export default function ContactContent() {
   let socialMediaLinks = footerLinks[1].links;
 
   return (
-    <section className={layout.sectionReverse}>
+    <section className={`${layout.sectionReverse} gap-10`}>
       <div className={`${layout.sectionImgReverse}`}>
         <Image
           src={AboutPic}
-          alt="Keybaord player"
+          alt="Guitar Player"
           className="md:w-[90%] w-[65%] rounded-[15px] relative z-[5]"
         />
       </div>
-      <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Contact Us</h2>
+      <div className={`${layout.sectionInfo}`}>
+        <h2 className={`${styles.heading2}`}>Contact Us</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Need a soundtrack? Let&apos;s get started.
         </p>
 
         <ContactUsButton
-          styles={'mt-5'}
+          styles={'mt-5 max-w-[180px]'}
           text="Email Us"
           link="mailto:contact@atlas-audio.co.uk"
         />

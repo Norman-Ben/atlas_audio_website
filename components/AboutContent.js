@@ -9,7 +9,7 @@ import JakeHeadshot from '../public/assets/JakeHeadshot.jpeg';
 export default function AboutContent() {
   return (
     <>
-      <section className={layout.sectionReverse}>
+      <section className={`${layout.sectionReverse} gap-10`}>
         <div className={`${layout.sectionImgReverse}`}>
           <Image
             src={AboutImage}
