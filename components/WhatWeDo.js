@@ -15,7 +15,7 @@ const cardContent = {
   cardTwo: {
     headingText: 'State of the Art Studio',
     pText:
-      'The Barn Studio live room and control room are primed and ready to take your track from inception to completion. Find us between Bath & Bristol, close to the beautiful village Chew Magna.',
+      'The Barn Studio live room and control room are primed and ready to take your track from inception to completion. Find us between Bath & Bristol, close to the beautiful village of Chew Magna.',
     picture: StudioPic,
     alt: 'Julian from Atlas Audio',
   },
