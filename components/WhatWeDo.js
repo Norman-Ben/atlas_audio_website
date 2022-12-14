@@ -6,7 +6,7 @@ import { LayoutCard, LayoutCardRev } from './index.js';
 
 const cardContent = {
   cardOne: {
-    headingText: 'Hire a Drummer.',
+    headingText: 'Hire a Drummer',
     pText:
       'In need of a dedicated drummer to bring your track to life? Look no further than our remote service, hosted on Zoom for your convenience.',
     picture: 'Marketing Video',
