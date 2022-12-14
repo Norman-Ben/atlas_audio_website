@@ -2,7 +2,7 @@ const styles = {
   boxWidth: 'xl:max-w-[1280px] w-full',
 
   heading2:
-    'font-poppins font-semibold xs:text-[38px] text-[40px] text-white xs:leading-[70px] leading-[55px] w-full',
+    'font-poppins font-semibold xs:text-[38px] text-[40px] text-white xs:leading-[70px] leading-[55px]',
   paragraph:
     'font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]',
 
@@ -24,7 +24,7 @@ export const layout = {
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
   sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
 
-  sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
+  sectionInfo: `flex-1 ${styles.flexCenter} flex-col`,
 };
 
 export default styles;
