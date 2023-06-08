@@ -1,34 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**Client Testimonial:** “Ben is as personable as he is professional. He surpassed our expectations for our website build, despite the tight deadline we set. He ingeniously elevated our brand’s image in ways we hadn’t considered, while keeping us in the loop at every stage. We felt valued and involved in a process that was largely unfamiliar to us. Working with Ben was both a pleasure and a privilege. We won’t hesitate to collaborate with him in the future. We can’t recommend Ben enough.” - Atlas Audio
 
-## Getting Started
+**Project Summary:** This project was a bespoke commission for Atlas Audio, a dynamic audio production company based in Bristol. The task was to completely revamp their existing Wordpress website.
 
-First, run the development server:
+**Project Requirements:** The chief objectives for this project were to enhance SEO, slash hosting expenses, boost performance, incorporate a contact form for client inquiries about services, and align the website’s style with their revamped brand image.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+**Justification for Tech Stack:** Evaluating the project requirements, I concluded that NextJS would serve as the optimal frontend framework. Its SEO-friendly nature (over React), owing to its ability to generate HTML for each page, and a host of built-in features to bolster site performance (such as lazy loading and Server Side Rendering) made it a fitting choice. Moreover, it enabled me to create a backend serverless function to handle form submissions, eliminating the need for a separate server.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For styling, I employed Tailwind, as it ensures consistent UI layout and spacing without compromising the customizability offered by pure CSS.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+To manage form submission and emails, I leveraged a serverless NodeJS endpoint in NextJS, which uses the SendGrid API. This allowed me to send emails with the form content to the Atlas Audio team. This strategy helped me do away with the need for a separate backend server and wiped out hosting costs, as everything could be hosted using Vercel’s free tier.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Project Outcome:** The project was a resounding success. I managed to cut Atlas’ hosting costs down to £0.00 and significantly elevate their website metrics from SEO: 46 -> 92, Performance: 51 -> 97, Accessibility: 64 -> 97, and Best Practices: 72 -> 100, as indicated by Lighthouse. Additionally, website traffic saw a spike of 24% over a 3-month period.
