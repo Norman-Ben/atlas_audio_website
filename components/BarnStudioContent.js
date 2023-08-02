@@ -85,7 +85,7 @@ export default function BarnStudioContent() {
         </div>
       </section>
       <iframe
-        src="https://widgets.sociablekit.com/google-reviews/iframe/101044"
+        src="https://widgets.sociablekit.com/google-reviews/iframe/175209"
         frameBorder="0"
         width="100%"
         height="400"
