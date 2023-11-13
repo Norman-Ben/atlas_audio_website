@@ -17,7 +17,7 @@ export default function Footer() {
           <p
             className={`${styles.paragraph} mt-4 max-w-[310px] text-sm text-center`}
           >
-            Copyright © 2022 Atlas Audio
+            Atlas Audio © 2022 - Present. All Rights Reserved.
           </p>
         </div>
 
