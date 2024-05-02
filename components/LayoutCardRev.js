@@ -10,13 +10,13 @@ const cardAnimation = {
     x: 0,
     transition: {
       duration: 0.5,
-      delay: 0.3,
-    },
+      delay: 0.3
+    }
   },
   hidden: {
     opacity: 0,
-    x: -100,
-  },
+    x: -100
+  }
 };
 
 export default function LayoutCardRev(props) {
@@ -52,6 +52,7 @@ export default function LayoutCardRev(props) {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           {props.pText}
         </p>
+        {props.button ? props.button : null}
       </div>
     </motion.section>
   );
